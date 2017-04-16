@@ -1,0 +1,7 @@
+extends /index.pug
+block sidebar
+append content
+	form(action="/admin/users/create", method="post")
+		input(type="text", name="uname")
+		input(type="password", name="password")
+		button(type="submit") Add New User

@@ -1,0 +1,29 @@
+{
+  "name": "butterscotch.admin-ui-user-manager",
+  "version": "0.0.0",
+  "dependencies": {
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/FridaySuite/butterscotch.admin-ui-user-manager.git"
+  },
+  "keywords": [
+    "add",
+    "posts",
+    "butterscotch",
+    "friday",
+    "suite"
+  ],
+  "author": "ankitbug94",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FridaySuite/butterscotch.admin-ui-user-manager/issues"
+  },
+  "homepage": "https://github.com/FridaySuite/butterscotch.admin-ui-user-manager#readme",
+  "description": ""
+}

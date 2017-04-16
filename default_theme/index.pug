@@ -1,0 +1,17 @@
+extends /index.pug
+append scriptInHead
+	!= $.loadScript(plugin.name,"link(href='"+plugin.theme.assetDir+"/css/style.min.css', rel='stylesheet')")
+append content
+	!= message
+	div(class='pt20')
+			a(class='btn btn-primary', href='/admin/users/create')
+				| Add User
+	hr
+	strong(class='')
+		| Already Existing Users
+	ol(class='row')
+		each user in users
+			li(class='col-sm-4 col-md-3 ptb10')
+				| Username : 
+				a(class='', href='users/'+user._id)
+					!= user.local.uname
